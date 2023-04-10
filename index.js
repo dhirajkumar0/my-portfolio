@@ -139,10 +139,10 @@ form.addEventListener('submit', e =>{
         var sub = fullname.value +"'s message from portfolio contact form!";
 
         Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "optionalpsir1@gmail.com",
-            Password : "5B03AECB6CD8AA357E146F3E04F88893DCE1",
-            // SecureToken:"1482fe7a-9641-485d-9d31-66beaf870ef4",
+            // Host : "smtp.elasticemail.com",
+            // Username : "optionalpsir1@gmail.com",
+            // Password : "5B03AECB6CD8AA357E146F3E04F88893DCE1",
+            SecureToken:"b3ae2d20-4442-4610-80db-4a6f3fa46036",
             To : 'kumardhiraj259@gmail.com',
             From : "optionalpsir1@gmail.com",
             Subject : sub,
