@@ -148,7 +148,7 @@ form.addEventListener('submit', e =>{
             Subject : sub,
             Body : body
         }).then(
-            message => alert("Message Sent Successfully to Jami Saiteja")
+            message => alert("Message Sent Successfully to Dhiraj Kumar")
         )
         reset(inputs);
     }
